@@ -1,7 +1,15 @@
+- [자판기 데모링크](https://wondonghwi.github.io/nextstep-js-vending-machine/)
+- [자판기 4단계(마지막단계) 1~2차 미션 PR 코드리뷰](https://github.com/next-step/js-vending-machine/pull/48)
+- [자판기 4단계(마지막단계) 3~4차 미션 PR 코드리뷰](https://github.com/next-step/js-vending-machine/pull/49)
+
+## nextstep - TDD, 클린 코드 with JavaScript 3기 수료
+
+[nextstep 클린코드 자바스크립트 설명 링크첨부](https://edu.nextstep.camp/c/BRaNdTQx/)
+
 <p align="middle" >
   <img src="https://nextstep-storage.s3.ap-northeast-2.amazonaws.com/536baaa17ed346bb851cc9f663edb069" width="400">
 </p>
-  <h1 align="middle">원동휘 / 자바스크립트와 Cypress로 구현하는 자판기</h1>
+  <h1 align="middle">원동휘 / 자바스크립트로 구현하는 자판기</h1>
   <p align="middle">
     <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" alt="template version"/>
     <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/>

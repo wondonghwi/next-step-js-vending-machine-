@@ -37,7 +37,6 @@ class ProductPurchaseMenu {
     );
 
     this.app.innerHTML = productPurchaseMenuTemplate(productMenuTemplate, cashBoxChangeTemplate);
-
     ProductPurchaseMenu.changeRenderer();
   }
 
@@ -62,7 +61,9 @@ class ProductPurchaseMenu {
 
   buyProduct(e) {
     const { className, name } = e.target;
+
     if (className !== 'purchase-product-button') return;
+
     this.productPurchaseService.setBuyProduct(name);
     ProductPurchaseMenu.changeRenderer();
   }

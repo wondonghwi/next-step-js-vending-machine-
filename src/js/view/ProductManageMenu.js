@@ -14,7 +14,9 @@ class ProductManageMenu {
 
   static changeRenderer() {
     const getState = StorageService.getProductManageMenu();
-    if (!getState) return;
+
+    const isEmptyObj = Object.keys(getState).length === 0;
+    if (isEmptyObj) return;
 
     const $productInventoryContainer = document.querySelector('#product-inventory-container');
     const $productContainer = document.querySelector('.product-container');

@@ -48,10 +48,7 @@ class VendingMachineManageMenu {
       checkValidation(inputCondition, ERROR_MESSAGE.INVALID_CHARGE_UNIT);
 
       this.vendingManageService.setHoldingAmount(formattingPrice);
-      this.vendingManageService.setCoinsAmount(
-        formattingPrice,
-        VendingMachineManageMenuService.getCoinsNumber(formattingPrice)
-      );
+      this.vendingManageService.setCoinsAmount(VendingMachineManageMenuService.getCoinsNumber(formattingPrice));
 
       VendingMachineManageMenu.changeRenderer();
     } catch (error) {

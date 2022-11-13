@@ -14,7 +14,7 @@ class VendingMachineManageMenuService {
     this.amount[STORAGE_KEY.AMOUNT] += price;
   }
 
-  setCoinsAmount(price, coins) {
+  setCoinsAmount(coins) {
     this.coinState[COINS.TEN] += coins[COINS.TEN];
     this.coinState[COINS.FIFTY] += coins[COINS.FIFTY];
     this.coinState[COINS.ONE_HUNDRED] += coins[COINS.ONE_HUNDRED];

@@ -6,7 +6,6 @@ class StorageService {
     return Storage.getStateData();
   }
 
-  // GET
   getProductManageMenu() {
     return this.getStateData()[MENU.PRODUCT_MANAGE];
   }
@@ -22,8 +21,6 @@ class StorageService {
   getProductPurchase(storageState, storeKey) {
     return storageState[MENU.PRODUCT_PURCHASE][storeKey];
   }
-
-  // SET
 
   setProductManageMenu({ noBlankName, price, count }) {
     const state = Storage.getStateData();
